@@ -1,0 +1,42 @@
+DROP TABLE IF EXISTS class;
+CREATE table class(
+ID_Class INT NOT NULL AUTO_INCREMENT,
+ID_Course INT NOT NULL,
+Section VARCHAR(20),
+StartDate DATE,
+EndDate DATE,
+PRIMARY KEY(ID_Class)
+);
+
+DROP TABLE IF EXISTS course;
+CREATE table course(
+ID_Course INT NOT NULL AUTO_INCREMENT,
+CourseCode VARCHAR(20),
+CourseName VARCHAR(50),
+CreditHours INT,
+BootCampCourse TINYINT,
+PRIMARY KEY(ID_Course)
+);
+
+DROP TABLE IF EXISTS student;
+CREATE table student(
+ID_Student INT NOT NULL AUTO_INCREMENT,
+StudentID VARCHAR(20),
+LastName VARCHAR(50),
+FirstName VARCHAR(50),
+MiddleName VARCHAR(50),
+BirthDate DATE,
+Gender CHAR(1),
+PRIMARY KEY(ID_Student)
+);
+
+DROP TABLE IF EXISTS staff;
+CREATE table staff(
+ID_Staff INT NOT NULL AUTO_INCREMENT,
+EmployeeID VARCHAR(20),
+LastName VARCHAR(50),
+FirstName VARCHAR(50),
+MiddleName VARCHAR(50),
+BirthDate DATE,
+PRIMARY KEY(ID_Staff)
+);
