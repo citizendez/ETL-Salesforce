@@ -1,9 +1,0 @@
-ID_Course,CourseCode,CourseName,CreditHours,BootCampCourse
-1,BC-DATAVIZ,Data Visualization and Analytics,12,1
-2,BC-WEBDEV,Full Stack Web Development,12,1
-3,BC-UIUX,User Interface/User Experience,12,1
-4,CIS-349,Introduction to Databases,5,0
-5,CIS-405,Database Programming,5,0
-6,CIS-438,Database Administration,5,0
-7,CIS-430,Business Systems Programming I,5,0
-8,CIS-435,Business Systems Programming II,5,0
